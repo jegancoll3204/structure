@@ -33,6 +33,7 @@ int main()
     printf("Register Number  :%d\n",s1.reg); printf("\n");
     
     printf("SUBJECT           MARK        RESULT\n");
+    
     printf("--------------------------------------\n");
     printf("Tamil            :%d        ",s1.a[0]);  if(s1.a[0]>=35) printf("Pass\n"); else printf("Fail\n");
     printf("English          :%d        ",s1.a[1]);  if(s1.a[1]>=35) printf("Pass\n"); else printf("Fail\n");
